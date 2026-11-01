@@ -268,8 +268,12 @@ export function portada(g, W, H) {
     g.restore();
     y += tam * 1.12;
   }
-  g.font = '800 38px Montserrat'; espaciado(g, 8);
-  textoContorno(g, 'RECONSTRUCCIÓN ANIMADA · GRAN PIRÁMIDE DE GUIZA', W / 2, H - 250, { color: '#F6E7CB', grosor: 7, sombra: 14 });
+  g.font = '800 34px Montserrat'; espaciado(g, 6);
+  const lema = 'RECONSTRUCCIÓN ANIMADA · GRAN PIRÁMIDE DE GUIZA';
+  const escL = Math.min(1, (W - 110) / g.measureText(lema).width);
+  g.save(); g.translate(W / 2, H - 250); g.scale(escL, escL);
+  textoContorno(g, lema, 0, 0, { color: '#F6E7CB', grosor: 7, sombra: 14 });
+  g.restore();
   g.fillStyle = ORO; g.fillRect(W / 2 - 90, H - 205, 180, 6);
   g.restore();
 }

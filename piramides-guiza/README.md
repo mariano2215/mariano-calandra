@@ -10,10 +10,10 @@ dinámicos y SRT.
 | Archivo | Contenido |
 |---|---|
 | `piramides_guiza_1080x1920.mp4` | Video final H.264 + AAC, subtítulos integrados (quemados) |
-| `piramides_guiza_1080x1920_con_pista_srt.mp4` | Igual, con pista SRT seleccionable adicional |
+| `piramides_guiza_1080x1920_con_pista_srt.mp4` | Igual, con pista SRT seleccionable (se genera con `codificar.sh`; no se versiona) |
 | `subtitulos.srt` | Subtítulos en español, sincronizados con la narración |
 | `portada_1080x1920.png` | Portada vertical «¿CÓMO CONSTRUYERON LAS PIRÁMIDES?» |
-| `narracion.wav`, `musica.wav`, `efectos.wav`, `mezcla_final.wav` | Pistas de audio separadas (stems) |
+| `audio/narracion.flac`, `audio/musica.flac`, `audio/efectos.flac`, `audio/mezcla_final.flac` | Pistas de audio separadas (stems) |
 
 ## Estructura del proyecto
 
