@@ -135,7 +135,7 @@ export const plano4a = {
     // detrás y por encima del velero que remonta el río; brillo del sol a la izquierda
     const f = smooth(clamp((t - 22) / 3.2));
     const vp = N.velero.grupo.position;
-    camara(ctx, vp.clone().add(V(-48 + 8 * f, 30 - 10 * f, -80 + 18 * f)), vp.clone().add(V(28, -2, 150)), { fov: 48, cerca: 1, mano: 0.3, t });
+    camara(ctx, vp.clone().add(V(-34 + 6 * f, 20 - 7 * f, -62 + 14 * f)), vp.clone().add(V(4, 1, 26)), { fov: 48, cerca: 1, mano: 0.3, t });
     ctx.mundo.enfocarSombra(V(1900, AGUA, -100), 400);
     return { bloom: 0.45, rayos: 0.4, contraste: 1.06 };
   },
