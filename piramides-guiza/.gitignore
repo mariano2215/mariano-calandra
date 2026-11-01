@@ -7,3 +7,4 @@ audio/build/
 narracion/build/*.wav
 __pycache__/
 salida/avance_parcial.mp4
+salida/render2.log

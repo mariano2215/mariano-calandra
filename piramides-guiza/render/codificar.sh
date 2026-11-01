@@ -12,7 +12,7 @@ if [ "$total" -lt 2100 ]; then echo "Faltan cuadros: $total/2100"; exit 1; fi
 
 ffmpeg -hide_banner -y -framerate 30 -i "$CUADROS/c%05d.jpg" -i "$AUDIO" \
   -map 0:v -map 1:a \
-  -c:v libx264 -preset slow -crf 17 -profile:v high -level 4.2 -pix_fmt yuv420p \
+  -c:v libx264 -preset slow -crf 19 -maxrate 10M -bufsize 20M -profile:v high -level 4.2 -pix_fmt yuv420p \
   -vf "scale=1080:1920:flags=lanczos,format=yuv420p" \
   -color_primaries bt709 -color_trc bt709 -colorspace bt709 \
   -c:a aac -b:a 192k -ar 48000 -t 70 -movflags +faststart \

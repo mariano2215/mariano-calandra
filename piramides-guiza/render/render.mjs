@@ -36,6 +36,16 @@ function guardar(dataURL, archivo) {
 
 async function principal() {
   const { srv, puerto } = await iniciarServidor(0);
+  if (args.portada) {
+    const { navegador, pagina } = await abrir(puerto);
+    for (const ts of args.portada.split(',')) {
+      const d = await pagina.evaluate((t) => window.renderPortada(t), Number(ts));
+      const nombre = path.join(salida, `portada_t${ts}.png`);
+      guardar(d, nombre);
+      console.log('portada →', nombre);
+    }
+    await navegador.close(); srv.close(); return;
+  }
   if (args.tiempos) {
     const { navegador, pagina } = await abrir(puerto);
     for (const ts of args.tiempos.split(',')) {
