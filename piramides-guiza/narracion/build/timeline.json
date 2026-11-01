@@ -1,0 +1,1415 @@
+{
+ "fps": 30,
+ "duracion": 70.0,
+ "escenas": [
+  {
+   "id": 1,
+   "titulo": "El misterio",
+   "inicio": 0.0,
+   "fin": 5.0
+  },
+  {
+   "id": 2,
+   "titulo": "El comienzo",
+   "inicio": 5.0,
+   "fin": 13.0
+  },
+  {
+   "id": 3,
+   "titulo": "Extraer la piedra",
+   "inicio": 13.0,
+   "fin": 22.0
+  },
+  {
+   "id": 4,
+   "titulo": "El transporte por el Nilo",
+   "inicio": 22.0,
+   "fin": 32.0
+  },
+  {
+   "id": 5,
+   "titulo": "Mover toneladas sin ruedas",
+   "inicio": 32.0,
+   "fin": 43.0
+  },
+  {
+   "id": 6,
+   "titulo": "Subir los bloques",
+   "inicio": 43.0,
+   "fin": 56.0
+  },
+  {
+   "id": 7,
+   "titulo": "El resultado",
+   "inicio": 56.0,
+   "fin": 70.0
+  }
+ ],
+ "frases": [
+  {
+   "n": 1,
+   "escena": 1,
+   "inicio": 0.55,
+   "fin": 4.103,
+   "texto": "¿Cómo levantaron la Gran Pirámide de Guiza sin grúas ni motores?",
+   "pausas_detectadas": 0,
+   "pausas_esperadas": 0
+  },
+  {
+   "n": 2,
+   "escena": 2,
+   "inicio": 5.2,
+   "fin": 12.901,
+   "texto": "Hace unos 4.500 años, los egipcios comenzaron una obra que alcanzaría casi 147 metros de altura.",
+   "pausas_detectadas": 1,
+   "pausas_esperadas": 1
+  },
+  {
+   "n": 3,
+   "escena": 3,
+   "inicio": 13.6,
+   "fin": 18.603,
+   "texto": "Todo comenzaba en las canteras, donde se extraían y preparaban enormes bloques de piedra.",
+   "pausas_detectadas": 1,
+   "pausas_esperadas": 1
+  },
+  {
+   "n": 4,
+   "escena": 4,
+   "inicio": 22.7,
+   "fin": 28.183,
+   "texto": "Muchos materiales llegaban en barcos por el Nilo y canales conectados con la zona de construcción.",
+   "pausas_detectadas": 0,
+   "pausas_esperadas": 0
+  },
+  {
+   "n": 5,
+   "escena": 5,
+   "inicio": 32.6,
+   "fin": 35.48,
+   "texto": "En tierra, arrastraban los bloques sobre trineos.",
+   "pausas_detectadas": 1,
+   "pausas_esperadas": 1
+  },
+  {
+   "n": 6,
+   "escena": 5,
+   "inicio": 36.6,
+   "fin": 39.608,
+   "texto": "Humedecer la arena ayudaba a reducir la fricción.",
+   "pausas_detectadas": 0,
+   "pausas_esperadas": 0
+  },
+  {
+   "n": 7,
+   "escena": 6,
+   "inicio": 43.6,
+   "fin": 48.443,
+   "texto": "Para elevar las piedras, una de las principales hipótesis propone rampas y palancas.",
+   "pausas_detectadas": 1,
+   "pausas_esperadas": 1
+  },
+  {
+   "n": 8,
+   "escena": 6,
+   "inicio": 50.4,
+   "fin": 53.142,
+   "texto": "Pero su diseño exacto sigue siendo un misterio.",
+   "pausas_detectadas": 0,
+   "pausas_esperadas": 0
+  },
+  {
+   "n": 9,
+   "escena": 7,
+   "inicio": 56.6,
+   "fin": 61.101,
+   "texto": "Fue una hazaña de ingeniería, logística y miles de trabajadores organizados.",
+   "pausas_detectadas": 1,
+   "pausas_esperadas": 1
+  },
+  {
+   "n": 10,
+   "escena": 7,
+   "inicio": 61.9,
+   "fin": 66.572,
+   "texto": "Y aunque conocemos muchas de sus técnicas, todavía quedan preguntas sin resolver.",
+   "pausas_detectadas": 1,
+   "pausas_esperadas": 1
+  }
+ ],
+ "palabras": [
+  {
+   "palabra": "¿Cómo",
+   "ini": 0.59,
+   "fin": 0.869,
+   "resaltar": false,
+   "frase": 1
+  },
+  {
+   "palabra": "levantaron",
+   "ini": 0.869,
+   "fin": 1.537,
+   "resaltar": false,
+   "frase": 1
+  },
+  {
+   "palabra": "la",
+   "ini": 1.537,
+   "fin": 1.704,
+   "resaltar": false,
+   "frase": 1
+  },
+  {
+   "palabra": "Gran",
+   "ini": 1.704,
+   "fin": 1.983,
+   "resaltar": true,
+   "frase": 1
+  },
+  {
+   "palabra": "Pirámide",
+   "ini": 1.983,
+   "fin": 2.484,
+   "resaltar": true,
+   "frase": 1
+  },
+  {
+   "palabra": "de",
+   "ini": 2.484,
+   "fin": 2.651,
+   "resaltar": false,
+   "frase": 1
+  },
+  {
+   "palabra": "Guiza",
+   "ini": 2.651,
+   "fin": 2.93,
+   "resaltar": true,
+   "frase": 1
+  },
+  {
+   "palabra": "sin",
+   "ini": 2.93,
+   "fin": 3.153,
+   "resaltar": false,
+   "frase": 1
+  },
+  {
+   "palabra": "grúas",
+   "ini": 3.153,
+   "fin": 3.487,
+   "resaltar": true,
+   "frase": 1
+  },
+  {
+   "palabra": "ni",
+   "ini": 3.487,
+   "fin": 3.654,
+   "resaltar": false,
+   "frase": 1
+  },
+  {
+   "palabra": "motores?",
+   "ini": 3.654,
+   "fin": 4.1,
+   "resaltar": true,
+   "frase": 1
+  },
+  {
+   "palabra": "Hace",
+   "ini": 5.23,
+   "fin": 5.472,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "unos",
+   "ini": 5.472,
+   "fin": 5.775,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "4.500",
+   "ini": 5.775,
+   "fin": 7.047,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "años,",
+   "ini": 7.047,
+   "fin": 7.35,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "los",
+   "ini": 7.69,
+   "fin": 7.91,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "egipcios",
+   "ini": 7.91,
+   "fin": 8.404,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "comenzaron",
+   "ini": 8.404,
+   "fin": 9.062,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "una",
+   "ini": 9.062,
+   "fin": 9.282,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "obra",
+   "ini": 9.282,
+   "fin": 9.556,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "que",
+   "ini": 9.556,
+   "fin": 9.721,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "alcanzaría",
+   "ini": 9.721,
+   "fin": 10.38,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "casi",
+   "ini": 10.38,
+   "fin": 10.654,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "147",
+   "ini": 10.654,
+   "fin": 11.917,
+   "resaltar": true,
+   "frase": 2
+  },
+  {
+   "palabra": "metros",
+   "ini": 11.917,
+   "fin": 12.301,
+   "resaltar": true,
+   "frase": 2
+  },
+  {
+   "palabra": "de",
+   "ini": 12.301,
+   "fin": 12.466,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "altura.",
+   "ini": 12.466,
+   "fin": 12.85,
+   "resaltar": false,
+   "frase": 2
+  },
+  {
+   "palabra": "Todo",
+   "ini": 13.64,
+   "fin": 13.904,
+   "resaltar": false,
+   "frase": 3
+  },
+  {
+   "palabra": "comenzaba",
+   "ini": 13.904,
+   "fin": 14.485,
+   "resaltar": false,
+   "frase": 3
+  },
+  {
+   "palabra": "en",
+   "ini": 14.485,
+   "fin": 14.643,
+   "resaltar": false,
+   "frase": 3
+  },
+  {
+   "palabra": "las",
+   "ini": 14.643,
+   "fin": 14.855,
+   "resaltar": false,
+   "frase": 3
+  },
+  {
+   "palabra": "canteras,",
+   "ini": 14.855,
+   "fin": 15.33,
+   "resaltar": true,
+   "frase": 3
+  },
+  {
+   "palabra": "donde",
+   "ini": 15.59,
+   "fin": 15.901,
+   "resaltar": false,
+   "frase": 3
+  },
+  {
+   "palabra": "se",
+   "ini": 15.901,
+   "fin": 16.057,
+   "resaltar": false,
+   "frase": 3
+  },
+  {
+   "palabra": "extraían",
+   "ini": 16.057,
+   "fin": 16.628,
+   "resaltar": false,
+   "frase": 3
+  },
+  {
+   "palabra": "y",
+   "ini": 16.628,
+   "fin": 16.68,
+   "resaltar": false,
+   "frase": 3
+  },
+  {
+   "palabra": "preparaban",
+   "ini": 16.68,
+   "fin": 17.303,
+   "resaltar": false,
+   "frase": 3
+  },
+  {
+   "palabra": "enormes",
+   "ini": 17.303,
+   "fin": 17.718,
+   "resaltar": false,
+   "frase": 3
+  },
+  {
+   "palabra": "bloques",
+   "ini": 17.718,
+   "fin": 18.081,
+   "resaltar": true,
+   "frase": 3
+  },
+  {
+   "palabra": "de",
+   "ini": 18.081,
+   "fin": 18.237,
+   "resaltar": false,
+   "frase": 3
+  },
+  {
+   "palabra": "piedra.",
+   "ini": 18.237,
+   "fin": 18.6,
+   "resaltar": false,
+   "frase": 3
+  },
+  {
+   "palabra": "Muchos",
+   "ini": 22.74,
+   "fin": 23.12,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "materiales",
+   "ini": 23.12,
+   "fin": 23.771,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "llegaban",
+   "ini": 23.771,
+   "fin": 24.205,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "en",
+   "ini": 24.205,
+   "fin": 24.367,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "barcos",
+   "ini": 24.367,
+   "fin": 24.747,
+   "resaltar": true,
+   "frase": 4
+  },
+  {
+   "palabra": "por",
+   "ini": 24.747,
+   "fin": 24.964,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "el",
+   "ini": 24.964,
+   "fin": 25.127,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "Nilo",
+   "ini": 25.127,
+   "fin": 25.398,
+   "resaltar": true,
+   "frase": 4
+  },
+  {
+   "palabra": "y",
+   "ini": 25.398,
+   "fin": 25.452,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "canales",
+   "ini": 25.452,
+   "fin": 25.886,
+   "resaltar": true,
+   "frase": 4
+  },
+  {
+   "palabra": "conectados",
+   "ini": 25.886,
+   "fin": 26.537,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "con",
+   "ini": 26.537,
+   "fin": 26.754,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "la",
+   "ini": 26.754,
+   "fin": 26.917,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "zona",
+   "ini": 26.917,
+   "fin": 27.188,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "de",
+   "ini": 27.188,
+   "fin": 27.351,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "construcción.",
+   "ini": 27.351,
+   "fin": 28.11,
+   "resaltar": false,
+   "frase": 4
+  },
+  {
+   "palabra": "En",
+   "ini": 32.64,
+   "fin": 32.827,
+   "resaltar": false,
+   "frase": 5
+  },
+  {
+   "palabra": "tierra,",
+   "ini": 32.827,
+   "fin": 33.2,
+   "resaltar": false,
+   "frase": 5
+  },
+  {
+   "palabra": "arrastraban",
+   "ini": 33.3,
+   "fin": 33.991,
+   "resaltar": false,
+   "frase": 5
+  },
+  {
+   "palabra": "los",
+   "ini": 33.991,
+   "fin": 34.221,
+   "resaltar": false,
+   "frase": 5
+  },
+  {
+   "palabra": "bloques",
+   "ini": 34.221,
+   "fin": 34.624,
+   "resaltar": true,
+   "frase": 5
+  },
+  {
+   "palabra": "sobre",
+   "ini": 34.624,
+   "fin": 34.969,
+   "resaltar": false,
+   "frase": 5
+  },
+  {
+   "palabra": "trineos.",
+   "ini": 34.969,
+   "fin": 35.43,
+   "resaltar": true,
+   "frase": 5
+  },
+  {
+   "palabra": "Humedecer",
+   "ini": 36.64,
+   "fin": 37.207,
+   "resaltar": false,
+   "frase": 6
+  },
+  {
+   "palabra": "la",
+   "ini": 37.207,
+   "fin": 37.377,
+   "resaltar": false,
+   "frase": 6
+  },
+  {
+   "palabra": "arena",
+   "ini": 37.377,
+   "fin": 37.717,
+   "resaltar": true,
+   "frase": 6
+  },
+  {
+   "palabra": "ayudaba",
+   "ini": 37.717,
+   "fin": 38.227,
+   "resaltar": false,
+   "frase": 6
+  },
+  {
+   "palabra": "a",
+   "ini": 38.227,
+   "fin": 38.34,
+   "resaltar": false,
+   "frase": 6
+  },
+  {
+   "palabra": "reducir",
+   "ini": 38.34,
+   "fin": 38.85,
+   "resaltar": false,
+   "frase": 6
+  },
+  {
+   "palabra": "la",
+   "ini": 38.85,
+   "fin": 39.02,
+   "resaltar": false,
+   "frase": 6
+  },
+  {
+   "palabra": "fricción.",
+   "ini": 39.02,
+   "fin": 39.53,
+   "resaltar": true,
+   "frase": 6
+  },
+  {
+   "palabra": "Para",
+   "ini": 43.64,
+   "fin": 43.892,
+   "resaltar": false,
+   "frase": 7
+  },
+  {
+   "palabra": "elevar",
+   "ini": 43.892,
+   "fin": 44.295,
+   "resaltar": false,
+   "frase": 7
+  },
+  {
+   "palabra": "las",
+   "ini": 44.295,
+   "fin": 44.497,
+   "resaltar": false,
+   "frase": 7
+  },
+  {
+   "palabra": "piedras,",
+   "ini": 44.497,
+   "fin": 44.9,
+   "resaltar": false,
+   "frase": 7
+  },
+  {
+   "palabra": "una",
+   "ini": 45.01,
+   "fin": 45.244,
+   "resaltar": false,
+   "frase": 7
+  },
+  {
+   "palabra": "de",
+   "ini": 45.244,
+   "fin": 45.419,
+   "resaltar": false,
+   "frase": 7
+  },
+  {
+   "palabra": "las",
+   "ini": 45.419,
+   "fin": 45.653,
+   "resaltar": false,
+   "frase": 7
+  },
+  {
+   "palabra": "principales",
+   "ini": 45.653,
+   "fin": 46.413,
+   "resaltar": false,
+   "frase": 7
+  },
+  {
+   "palabra": "hipótesis",
+   "ini": 46.413,
+   "fin": 46.939,
+   "resaltar": false,
+   "frase": 7
+  },
+  {
+   "palabra": "propone",
+   "ini": 46.939,
+   "fin": 47.406,
+   "resaltar": false,
+   "frase": 7
+  },
+  {
+   "palabra": "rampas",
+   "ini": 47.406,
+   "fin": 47.816,
+   "resaltar": true,
+   "frase": 7
+  },
+  {
+   "palabra": "y",
+   "ini": 47.816,
+   "fin": 47.874,
+   "resaltar": false,
+   "frase": 7
+  },
+  {
+   "palabra": "palancas.",
+   "ini": 47.874,
+   "fin": 48.4,
+   "resaltar": true,
+   "frase": 7
+  },
+  {
+   "palabra": "Pero",
+   "ini": 50.44,
+   "fin": 50.727,
+   "resaltar": false,
+   "frase": 8
+  },
+  {
+   "palabra": "su",
+   "ini": 50.727,
+   "fin": 50.9,
+   "resaltar": false,
+   "frase": 8
+  },
+  {
+   "palabra": "diseño",
+   "ini": 50.9,
+   "fin": 51.302,
+   "resaltar": false,
+   "frase": 8
+  },
+  {
+   "palabra": "exacto",
+   "ini": 51.302,
+   "fin": 51.761,
+   "resaltar": false,
+   "frase": 8
+  },
+  {
+   "palabra": "sigue",
+   "ini": 51.761,
+   "fin": 52.049,
+   "resaltar": false,
+   "frase": 8
+  },
+  {
+   "palabra": "siendo",
+   "ini": 52.049,
+   "fin": 52.451,
+   "resaltar": false,
+   "frase": 8
+  },
+  {
+   "palabra": "un",
+   "ini": 52.451,
+   "fin": 52.623,
+   "resaltar": false,
+   "frase": 8
+  },
+  {
+   "palabra": "misterio.",
+   "ini": 52.623,
+   "fin": 53.14,
+   "resaltar": true,
+   "frase": 8
+  },
+  {
+   "palabra": "Fue",
+   "ini": 56.64,
+   "fin": 56.834,
+   "resaltar": false,
+   "frase": 9
+  },
+  {
+   "palabra": "una",
+   "ini": 56.834,
+   "fin": 57.029,
+   "resaltar": false,
+   "frase": 9
+  },
+  {
+   "palabra": "hazaña",
+   "ini": 57.029,
+   "fin": 57.321,
+   "resaltar": false,
+   "frase": 9
+  },
+  {
+   "palabra": "de",
+   "ini": 57.321,
+   "fin": 57.467,
+   "resaltar": false,
+   "frase": 9
+  },
+  {
+   "palabra": "ingeniería,",
+   "ini": 57.467,
+   "fin": 58.05,
+   "resaltar": true,
+   "frase": 9
+  },
+  {
+   "palabra": "logística",
+   "ini": 58.27,
+   "fin": 58.861,
+   "resaltar": true,
+   "frase": 9
+  },
+  {
+   "palabra": "y",
+   "ini": 58.861,
+   "fin": 58.921,
+   "resaltar": false,
+   "frase": 9
+  },
+  {
+   "palabra": "miles",
+   "ini": 58.921,
+   "fin": 59.276,
+   "resaltar": true,
+   "frase": 9
+  },
+  {
+   "palabra": "de",
+   "ini": 59.276,
+   "fin": 59.453,
+   "resaltar": false,
+   "frase": 9
+  },
+  {
+   "palabra": "trabajadores",
+   "ini": 59.453,
+   "fin": 60.281,
+   "resaltar": true,
+   "frase": 9
+  },
+  {
+   "palabra": "organizados.",
+   "ini": 60.281,
+   "fin": 61.05,
+   "resaltar": false,
+   "frase": 9
+  },
+  {
+   "palabra": "Y",
+   "ini": 61.94,
+   "fin": 61.998,
+   "resaltar": false,
+   "frase": 10
+  },
+  {
+   "palabra": "aunque",
+   "ini": 61.998,
+   "fin": 62.348,
+   "resaltar": false,
+   "frase": 10
+  },
+  {
+   "palabra": "conocemos",
+   "ini": 62.348,
+   "fin": 62.989,
+   "resaltar": false,
+   "frase": 10
+  },
+  {
+   "palabra": "muchas",
+   "ini": 62.989,
+   "fin": 63.397,
+   "resaltar": false,
+   "frase": 10
+  },
+  {
+   "palabra": "de",
+   "ini": 63.397,
+   "fin": 63.572,
+   "resaltar": false,
+   "frase": 10
+  },
+  {
+   "palabra": "sus",
+   "ini": 63.572,
+   "fin": 63.805,
+   "resaltar": false,
+   "frase": 10
+  },
+  {
+   "palabra": "técnicas,",
+   "ini": 63.805,
+   "fin": 64.33,
+   "resaltar": false,
+   "frase": 10
+  },
+  {
+   "palabra": "todavía",
+   "ini": 64.46,
+   "fin": 64.931,
+   "resaltar": false,
+   "frase": 10
+  },
+  {
+   "palabra": "quedan",
+   "ini": 64.931,
+   "fin": 65.245,
+   "resaltar": false,
+   "frase": 10
+  },
+  {
+   "palabra": "preguntas",
+   "ini": 65.245,
+   "fin": 65.768,
+   "resaltar": true,
+   "frase": 10
+  },
+  {
+   "palabra": "sin",
+   "ini": 65.768,
+   "fin": 65.977,
+   "resaltar": false,
+   "frase": 10
+  },
+  {
+   "palabra": "resolver.",
+   "ini": 65.977,
+   "fin": 66.5,
+   "resaltar": false,
+   "frase": 10
+  }
+ ],
+ "bloques": [
+  {
+   "ini": 0.59,
+   "fin": 1.704,
+   "palabras": [
+    0,
+    1,
+    2
+   ],
+   "frase": 1
+  },
+  {
+   "ini": 1.704,
+   "fin": 2.651,
+   "palabras": [
+    3,
+    4,
+    5
+   ],
+   "frase": 1
+  },
+  {
+   "ini": 2.651,
+   "fin": 3.487,
+   "palabras": [
+    6,
+    7,
+    8
+   ],
+   "frase": 1
+  },
+  {
+   "ini": 3.487,
+   "fin": 4.45,
+   "palabras": [
+    9,
+    10
+   ],
+   "frase": 1
+  },
+  {
+   "ini": 5.23,
+   "fin": 7.047,
+   "palabras": [
+    11,
+    12,
+    13
+   ],
+   "frase": 2
+  },
+  {
+   "ini": 7.047,
+   "fin": 7.69,
+   "palabras": [
+    14
+   ],
+   "frase": 2
+  },
+  {
+   "ini": 7.69,
+   "fin": 8.404,
+   "palabras": [
+    15,
+    16
+   ],
+   "frase": 2
+  },
+  {
+   "ini": 8.404,
+   "fin": 9.556,
+   "palabras": [
+    17,
+    18,
+    19
+   ],
+   "frase": 2
+  },
+  {
+   "ini": 9.556,
+   "fin": 10.654,
+   "palabras": [
+    20,
+    21,
+    22
+   ],
+   "frase": 2
+  },
+  {
+   "ini": 10.654,
+   "fin": 12.466,
+   "palabras": [
+    23,
+    24,
+    25
+   ],
+   "frase": 2
+  },
+  {
+   "ini": 12.466,
+   "fin": 13.2,
+   "palabras": [
+    26
+   ],
+   "frase": 2
+  },
+  {
+   "ini": 13.64,
+   "fin": 14.643,
+   "palabras": [
+    27,
+    28,
+    29
+   ],
+   "frase": 3
+  },
+  {
+   "ini": 14.643,
+   "fin": 15.59,
+   "palabras": [
+    30,
+    31
+   ],
+   "frase": 3
+  },
+  {
+   "ini": 15.59,
+   "fin": 16.628,
+   "palabras": [
+    32,
+    33,
+    34
+   ],
+   "frase": 3
+  },
+  {
+   "ini": 16.628,
+   "fin": 17.718,
+   "palabras": [
+    35,
+    36,
+    37
+   ],
+   "frase": 3
+  },
+  {
+   "ini": 17.718,
+   "fin": 18.95,
+   "palabras": [
+    38,
+    39,
+    40
+   ],
+   "frase": 3
+  },
+  {
+   "ini": 22.74,
+   "fin": 23.771,
+   "palabras": [
+    41,
+    42
+   ],
+   "frase": 4
+  },
+  {
+   "ini": 23.771,
+   "fin": 24.747,
+   "palabras": [
+    43,
+    44,
+    45
+   ],
+   "frase": 4
+  },
+  {
+   "ini": 24.747,
+   "fin": 25.398,
+   "palabras": [
+    46,
+    47,
+    48
+   ],
+   "frase": 4
+  },
+  {
+   "ini": 25.398,
+   "fin": 26.537,
+   "palabras": [
+    49,
+    50,
+    51
+   ],
+   "frase": 4
+  },
+  {
+   "ini": 26.537,
+   "fin": 27.188,
+   "palabras": [
+    52,
+    53,
+    54
+   ],
+   "frase": 4
+  },
+  {
+   "ini": 27.188,
+   "fin": 28.46,
+   "palabras": [
+    55,
+    56
+   ],
+   "frase": 4
+  },
+  {
+   "ini": 32.64,
+   "fin": 33.3,
+   "palabras": [
+    57,
+    58
+   ],
+   "frase": 5
+  },
+  {
+   "ini": 33.3,
+   "fin": 34.221,
+   "palabras": [
+    59,
+    60
+   ],
+   "frase": 5
+  },
+  {
+   "ini": 34.221,
+   "fin": 34.969,
+   "palabras": [
+    61,
+    62
+   ],
+   "frase": 5
+  },
+  {
+   "ini": 34.969,
+   "fin": 35.78,
+   "palabras": [
+    63
+   ],
+   "frase": 5
+  },
+  {
+   "ini": 36.64,
+   "fin": 37.717,
+   "palabras": [
+    64,
+    65,
+    66
+   ],
+   "frase": 6
+  },
+  {
+   "ini": 37.717,
+   "fin": 38.85,
+   "palabras": [
+    67,
+    68,
+    69
+   ],
+   "frase": 6
+  },
+  {
+   "ini": 38.85,
+   "fin": 39.88,
+   "palabras": [
+    70,
+    71
+   ],
+   "frase": 6
+  },
+  {
+   "ini": 43.64,
+   "fin": 44.497,
+   "palabras": [
+    72,
+    73,
+    74
+   ],
+   "frase": 7
+  },
+  {
+   "ini": 44.497,
+   "fin": 45.01,
+   "palabras": [
+    75
+   ],
+   "frase": 7
+  },
+  {
+   "ini": 45.01,
+   "fin": 45.653,
+   "palabras": [
+    76,
+    77,
+    78
+   ],
+   "frase": 7
+  },
+  {
+   "ini": 45.653,
+   "fin": 46.413,
+   "palabras": [
+    79
+   ],
+   "frase": 7
+  },
+  {
+   "ini": 46.413,
+   "fin": 47.406,
+   "palabras": [
+    80,
+    81
+   ],
+   "frase": 7
+  },
+  {
+   "ini": 47.406,
+   "fin": 48.75,
+   "palabras": [
+    82,
+    83,
+    84
+   ],
+   "frase": 7
+  },
+  {
+   "ini": 50.44,
+   "fin": 51.302,
+   "palabras": [
+    85,
+    86,
+    87
+   ],
+   "frase": 8
+  },
+  {
+   "ini": 51.302,
+   "fin": 52.451,
+   "palabras": [
+    88,
+    89,
+    90
+   ],
+   "frase": 8
+  },
+  {
+   "ini": 52.451,
+   "fin": 53.49,
+   "palabras": [
+    91,
+    92
+   ],
+   "frase": 8
+  },
+  {
+   "ini": 56.64,
+   "fin": 57.321,
+   "palabras": [
+    93,
+    94,
+    95
+   ],
+   "frase": 9
+  },
+  {
+   "ini": 57.321,
+   "fin": 58.27,
+   "palabras": [
+    96,
+    97
+   ],
+   "frase": 9
+  },
+  {
+   "ini": 58.27,
+   "fin": 59.276,
+   "palabras": [
+    98,
+    99,
+    100
+   ],
+   "frase": 9
+  },
+  {
+   "ini": 59.276,
+   "fin": 60.281,
+   "palabras": [
+    101,
+    102
+   ],
+   "frase": 9
+  },
+  {
+   "ini": 60.281,
+   "fin": 61.4,
+   "palabras": [
+    103
+   ],
+   "frase": 9
+  },
+  {
+   "ini": 61.94,
+   "fin": 62.989,
+   "palabras": [
+    104,
+    105,
+    106
+   ],
+   "frase": 10
+  },
+  {
+   "ini": 62.989,
+   "fin": 63.805,
+   "palabras": [
+    107,
+    108,
+    109
+   ],
+   "frase": 10
+  },
+  {
+   "ini": 63.805,
+   "fin": 64.46,
+   "palabras": [
+    110
+   ],
+   "frase": 10
+  },
+  {
+   "ini": 64.46,
+   "fin": 65.245,
+   "palabras": [
+    111,
+    112
+   ],
+   "frase": 10
+  },
+  {
+   "ini": 65.245,
+   "fin": 65.977,
+   "palabras": [
+    113,
+    114
+   ],
+   "frase": 10
+  },
+  {
+   "ini": 65.977,
+   "fin": 66.85,
+   "palabras": [
+    115
+   ],
+   "frase": 10
+  }
+ ]
+}

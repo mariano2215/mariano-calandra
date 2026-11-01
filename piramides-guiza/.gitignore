@@ -1,0 +1,7 @@
+node_modules/
+salida/cuadros/
+salida/render.log
+narracion/build/frase_*_raw.wav
+audio/build/mezcla_pre.wav
+audio/build/
+narracion/build/*.wav

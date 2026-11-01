@@ -1,0 +1,17 @@
+{
+  "name": "piramides-guiza",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reconstrucción documental animada: cómo se construyó la Gran Pirámide de Guiza (Three.js + render determinista + ffmpeg)",
+  "scripts": {
+    "preview": "node render/servidor.mjs",
+    "render": "node render/render.mjs",
+    "build": "node render/build.mjs"
+  },
+  "dependencies": {
+    "@fontsource/cinzel": "^5.1.0",
+    "@fontsource/montserrat": "^5.1.0",
+    "three": "^0.170.0"
+  }
+}
