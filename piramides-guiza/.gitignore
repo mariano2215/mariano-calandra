@@ -6,3 +6,4 @@ audio/build/mezcla_pre.wav
 audio/build/
 narracion/build/*.wav
 __pycache__/
+salida/avance_parcial.mp4
